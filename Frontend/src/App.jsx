@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router";
 import { Banner, Footer, Header } from "./components/commons";
-import { BuyInstaFollowers, BuyInstaLikes, Home, BuyInstaViews, BuyInstaComments, BuyTikTokLikes, BuyTikTokFollowers, BuyTikTokViews } from "./pages";
+import { BuyInstaFollowers, BuyInstaLikes, Home, BuyInstaViews, BuyInstaComments, BuyTikTokLikes, BuyTikTokFollowers } from "./pages";
+import BuyTikTokViews from "./pages/BuyTikTokViews";
 
 function App() {
   const bannerTitle = (
