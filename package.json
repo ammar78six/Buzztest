@@ -4,9 +4,9 @@
   "description": "# tech-project",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "cd Frontend && npm run dev",
+    "build": "cd Frontend && npm run build",
+    "preview": "cd Frontend && npm run preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,13 +20,5 @@
     "url": "https://github.com/mustaphashykh/tech-project/issues"
   },
   "homepage": "https://github.com/mustaphashykh/tech-project#readme",
-  "devDependencies": {
-    "@vitejs/plugin-react-swc": "^3.10.2",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.5",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.9",
-    "vite": "^6.3.5"
-  }
+  "devDependencies": {}
 }
